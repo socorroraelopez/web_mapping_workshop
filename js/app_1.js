@@ -20,7 +20,7 @@ featureLayer.om('ready', function(){
     'weight': 4,
     'opacity':.6
   });
-  map.fitBounds(featureLayer.getBounds())
+  map.fitBounds(featureLayer.getBounds());
 
 });
 
